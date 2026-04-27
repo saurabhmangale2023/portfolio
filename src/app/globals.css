@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '../styles/theme.css';
+
+body {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.card {
+  @apply rounded-xl border border-slate-700/40 bg-panel p-4 shadow-sm;
+}
